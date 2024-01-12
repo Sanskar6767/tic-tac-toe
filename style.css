@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+}
+.board {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    /* gap: 2px; */
+    padding: 2px;
+    
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid grey;
+    background: lightyellow;
+    cursor: pointer;
+    font-size: 60px;
+  }
+
+  .form{
+    padding: 80px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+  }
+
+  .form label, .form input {
+    font-size: 24px;
+    padding: 18px 0 6px 6px;
+  }
+
+ .form button {
+  font-size: 24px;
+  
+ }
